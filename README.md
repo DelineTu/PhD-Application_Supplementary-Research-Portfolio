@@ -6,7 +6,7 @@ This document presents my three selected research projects in **hybrid quantum s
 photonics, and electro-optical engineering**, unified by a **system-level philosophy** that tightly
 integrates optical dynamics, electronic interfaces, and control or learning algorithms.
 
-**Part I** investigates chip-scale quantum noise detection through **shot-noise-limited balanced homodyne detection for thin-film lithium niobate (TFLN) squeezing experiments**, which achieved a **shot-noise clearance ratio of 19.6 dB**, and a **CMRR of 26 dB** using co-design of optical coupling and **RF high-speed circuits**. I
+**Part I** investigates chip-scale quantum noise detection through **shot-noise-limited balanced homodyne detection for thin-film lithium niobate (TFLN) squeezing experiments**, which achieved a **shot-noise clearance ratio of 19.6 dB**, and a **CMRR of 26 dB** using co-design of **optical coupling** and **RF high-speed circuits**. I
 identified optical coupling, not electronic noise, as the dominant bottleneck and addressed it
 through co-designed fiber-to-chip edge couplers, free-space mode matching, wideband RF
 readout electronics, and common-mode rejection techniques to achieve shot-noise-limited
@@ -14,7 +14,7 @@ performance.
 
 **Part II** develops a **hardware-in-the-loop nonlinear photonic computing platform** based on
 second-harmonic generation. To enable gradient-based learning on non-differentiable optical
-hardware, I introduced a framework combining a noise-aware, differentiable digital twin with
+hardware, I introduced a framework combining a noise-aware, **physics-informed differentiable digital twin** with
 constraint-aware optimization. Using this approach, I demonstrated 85% accuracy on a vowel
 recognition task, validating end-to-end trainable nonlinear optics.
 
